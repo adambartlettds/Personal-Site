@@ -48,3 +48,39 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
+.buttons a {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 12px;
+  background-color: #0077B5;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.buttons a:hover {
+  background-color: #006699;
+}
+
+.github {
+  background-color: #333;
+}
+
+.github:hover {
+  background-color: #242424;
+}
+
+.linkedin {
+  background-color: #0077B5;
+}
+
+.linkedin:hover {
+  background-color: #006699;
+}
+
+.buttons i {
+  margin-right: 8px;
+}
+
