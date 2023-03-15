@@ -1,12 +1,12 @@
 /* styles.css */
 
 body {
+  background-color: #000;
   font-family: 'IBM Plex Mono', monospace;
-  color: #e94560;
+  color: #0f0;
   font-size: 1rem;
   line-height: 1.5;
   padding: 2rem;
-  background-image: linear-gradient(45deg, #1a1a2e, #2e2e4a);
 }
 
 pre {
@@ -16,7 +16,7 @@ pre {
 /* styles.css */
 
 .cursor {
-  background-color: #e94560;
+  background-color: #0f0;
   width: 0.5em;
   height: 1em;
   display: inline-block;
