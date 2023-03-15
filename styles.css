@@ -33,11 +33,15 @@ nav a:hover {
 }
 
 /* Main content */
+/* styles.css */
+
+/* Main content */
 main {
-  background-color: #222;
+  background-color: rgba(34, 34, 34, 0.85); /* Change 0.85 to control the level of transparency */
   color: #eee;
   padding: 1rem 0;
 }
+
 
 h1, h2 {
   color: #00ff00;
