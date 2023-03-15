@@ -12,3 +12,20 @@ body {
 pre {
   white-space: pre-wrap;
 }
+
+/* styles.css */
+
+.cursor {
+  background-color: #0f0;
+  width: 0.5em;
+  height: 1em;
+  display: inline-block;
+  animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    background-color: transparent;
+  }
+}
+
