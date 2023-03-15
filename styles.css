@@ -37,7 +37,7 @@ nav a:hover {
 
 /* Main content */
 main {
-  background-color: rgba(34, 34, 34, 0.85); /* Change 0.85 to control the level of transparency */
+  background-color: rgba(34, 34, 34, 0.5); /* Change 0.85 to control the level of transparency */
   color: #eee;
   padding: 1rem 0;
 }
