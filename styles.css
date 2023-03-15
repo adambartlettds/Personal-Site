@@ -1,1 +1,64 @@
 
+/* styles.css */
+
+/* Base styles */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* Navbar */
+nav {
+  background-color: #111;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  color: #eee;
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00ff00;
+}
+
+/* Main content */
+main {
+  background-color: #222;
+  color: #eee;
+  padding: 2rem 0;
+}
+
+h1, h2 {
+  color: #00ff00;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer a {
+  color: #eee;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #00ff00;
+}
